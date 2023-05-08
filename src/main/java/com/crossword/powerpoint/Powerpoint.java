@@ -24,9 +24,9 @@ import org.apache.poi.hslf.usermodel.HSLFTextRun;
 import org.apache.poi.sl.usermodel.VerticalAlignment;
 import org.apache.poi.ss.usermodel.Font;
 
-import com.crossword.crosswordboard.CrosswordBoard;
-import com.crossword.crosswordboard.Letter;
-import com.crossword.main.Preferences;
+import com.crossword.driver.Preferences;
+import com.crossword.gameobjects.CrosswordBoard;
+import com.crossword.gameobjects.Letter;
 
 import org.apache.poi.sl.usermodel.PictureData;
 import org.apache.poi.sl.usermodel.ShapeType;

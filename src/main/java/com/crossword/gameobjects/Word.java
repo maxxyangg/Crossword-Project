@@ -1,4 +1,5 @@
-package com.crossword.crosswordboard;
+package com.crossword.gameobjects;
+
 
 import java.util.ArrayList;
 

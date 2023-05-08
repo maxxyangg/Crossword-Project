@@ -1,4 +1,5 @@
-package com.crossword.crosswordboard;
+package com.crossword.gameobjects;
+
 
 public class Letter {
 	private int row;

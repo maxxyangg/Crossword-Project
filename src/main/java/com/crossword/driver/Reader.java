@@ -1,4 +1,4 @@
-package com.crossword.main;
+package com.crossword.driver;
 
 import java.io.BufferedReader;
 import java.io.File;

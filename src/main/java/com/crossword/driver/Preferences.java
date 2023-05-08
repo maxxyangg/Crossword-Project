@@ -1,4 +1,4 @@
-package com.crossword.main;
+package com.crossword.driver;
 
 import java.awt.Color;
 import java.sql.Timestamp;
@@ -14,7 +14,7 @@ public class Preferences {
 	// The String variable 'directory' returns the path of the running project. This
 	// is used to get files inside of the project sub-directories
 	// Workspace\ICS499-Skeleton_Project
-	public static String directory = System.getProperty("user.dir");
+	public static String directory = System.getProperty("user.dir") + "\\src\\main\\resources\\";
 
 	// MAX_NUMBER_OF_WORDS specifies the number of words that appear on each puzzle
 //	public final static int MAX_NUMBER_OF_WORDS = 3;
@@ -34,10 +34,10 @@ public class Preferences {
 //			+ ".ppt";
 
 	// OUTPUT_FOLDER_LOCATION specifies the location of the output files
-	public final static String OUTPUT_FOLDER_LOCATION = directory + "/PowerPoints/";
+	public final static String OUTPUT_FOLDER_LOCATION = directory + "\\PowerPoints\\";
 
 	// WORD_LIST_FOLDER_LOCATION specfies the location of the word list
-	public final static String WORD_LIST_FOLDER_LOCATION = directory + "/docs/";
+	public final static String WORD_LIST_FOLDER_LOCATION = directory + "\\docs\\";
 	
 	// UNUSED_WORDS_FILENAME is the filename for the list of unused words.
 	public final static String UNUSED_WORDS_FILENAME = "unused_words.csv";

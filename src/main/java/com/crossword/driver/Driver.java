@@ -1,4 +1,4 @@
-package com.crossword.main;
+package com.crossword.driver;
 
 import java.awt.Desktop;
 import java.awt.Dimension;
@@ -14,15 +14,16 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 import org.apache.poi.hslf.usermodel.HSLFSlide;
-import org.apache.poi.xwpf.usermodel.XWPFTable;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.crossword.APIConnector.APIConnector;
-import com.crossword.crosswordboard.CrosswordBoard;
-import com.crossword.crosswordboard.Letter;
-import com.crossword.crosswordboard.Word;
+import com.crossword.api.APIConnector;
+import com.crossword.gameobjects.CrosswordBoard;
+import com.crossword.gameobjects.Letter;
+import com.crossword.gameobjects.Word;
 import com.crossword.powerpoint.Powerpoint;
+
+
 
 
 public class Driver {

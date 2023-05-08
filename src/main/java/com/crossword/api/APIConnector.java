@@ -1,4 +1,5 @@
-package com.crossword.APIConnector;
+package com.crossword.api;
+
 
 
 import java.io.IOException;

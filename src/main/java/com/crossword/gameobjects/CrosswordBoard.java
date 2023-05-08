@@ -1,9 +1,11 @@
-package com.crossword.crosswordboard;
+package com.crossword.gameobjects;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.crossword.main.Preferences;
+import com.crossword.driver.Preferences;
+
 
 public class CrosswordBoard {
 	private ArrayList<String> wordList;
